@@ -39,4 +39,5 @@ def home3(c_id):
     return redirect(url_for("home1"))
 
 if __name__ == "__main__":
+    db.create_all()
     app.run()
